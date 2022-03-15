@@ -1,1 +1,32 @@
 /* Styles Go Here */
+
+.App {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  border-style: solid;
+  border-color: black;
+  margin: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  border-radius: 50px;
+  border-style: solid;
+  border-color: black;
+  height: 80px;
+  width: 80px;
+  margin-top: 25px;
+}
+
+li {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  margin: 10px 0;
+}
